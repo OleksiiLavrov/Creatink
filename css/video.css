@@ -1,0 +1,52 @@
+.parallax {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.parallax__media {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   background: #ccc url(../img/office-poster.png) no-repeat center center;
+   background-size: cover;
+}
+.parallax__media::before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.4);
+   z-index: 2;
+   content: "";
+}
+.parallax__video {
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+   top: 25%;
+   left: 10%;
+   transform: translate(-10%, -25%);
+}
+
+.parallax__content {
+   padding: 201px 0;
+   z-index: 10;
+   color: #fff;
+   text-align: center;
+   font-weight: 300;
+}
+
+.parallax__title {
+   margin-bottom: 16px;
+   font-size: 40px;
+   line-height: 48px;
+}
+.parallax__descr {
+   font-size: 26px;
+   line-height: 34px;
+}

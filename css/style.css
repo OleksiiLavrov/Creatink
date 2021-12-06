@@ -4,6 +4,10 @@
 @import url(./build-website.css);
 @import url(./features.css);
 @import url(./HowItWorks.css);
+@import url(./customers.css);
+@import url(./footer.css);
+@import url(./video.css);
+@import url(./slider.css);
 .menu,
 .big-menu,
 .sub-menu,
