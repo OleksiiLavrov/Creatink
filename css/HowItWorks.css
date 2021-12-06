@@ -4,7 +4,7 @@
    background: #f6f7f8;
 }
 .work__image {
-   background-image: url("/img/HowItWorks.jpg");
+   background-image: url("../img/HowItWorks.jpg");
    position: absolute;
    top: 0px;
    left: 0px;

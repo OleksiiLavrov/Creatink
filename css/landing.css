@@ -4,7 +4,7 @@
    margin: 0 auto;
    justify-content: center;
    display: flex;
-   background-image: url("/img/Background.jpg");
+   background-image: url("../img/Background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
