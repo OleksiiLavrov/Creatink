@@ -1,0 +1,27 @@
+.footer__grid-figure {
+   margin-bottom: 15px;
+   display: flex;
+}
+.footer__grid-figure__image {
+   width: 70px;
+   height: auto;
+}
+
+.footer__grid-figcaption {
+   margin-left: 15px;
+}
+
+.footer__grid-figcaption__title {
+   margin-bottom: 5px;
+   color: #fff;
+   font-size: 15px;
+   line-height: 1.4;
+}
+.footer__grid-figcaption__title a {
+   transition: all 150ms ease-in-out;
+}
+.footer__grid-figcaption__date {
+   text-transform: uppercase;
+   color: #aaaaaa;
+   font-size: 12px;
+}

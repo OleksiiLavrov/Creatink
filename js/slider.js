@@ -1,12 +1,13 @@
 let timer;
 let left = 0;
+let imgWidth = document.querySelector('.slider__image').clientWidth;
 autoSlider();
 
 function autoSlider() {
    timer = setTimeout(function () {
       let sliderBox = document.getElementById("slider-list");
-      left = left - 190;
-      if (left < -2370) {
+      left = left - imgWidth;
+      if (left < -(imgWidth * 13)) {
          left = 0;
          clearTimeout(timer);
       }
@@ -14,5 +15,3 @@ function autoSlider() {
       autoSlider();
    }, 3000);
 }
-
-

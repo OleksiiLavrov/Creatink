@@ -29,6 +29,3 @@
 ._animated .header__container {
    height: 65px;
 }
-
-/*Создать section для header и к нему добавить класс "_animated" через js при скролле 
-Для ._animated header { margin-bottom: 78px } , НО будут прыжки в начале*/

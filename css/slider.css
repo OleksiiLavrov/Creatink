@@ -1,14 +1,14 @@
 .slider {
    background: rgba(0, 0, 0, 0.07);
 }
-.slider-box {
+.slider__box {
    margin: 0 auto;
    padding: 90px 0;
    overflow: hidden;
    width: 1170px;
 }
 
-.slider-list {
+.slider__list {
    width: 3800px;
    position: relative;
    transition: all ease 0.5s;
@@ -16,5 +16,6 @@
 
 .slider__image {
    float: left;
+   width: 150px;
    padding: 0 20px;
 }

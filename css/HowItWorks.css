@@ -4,21 +4,11 @@
    background: #f6f7f8;
 }
 .work__image {
-   /* background-image: url("../img/HowItWorks.jpg");
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   width: 50%;
-   height: 100%;
-   background-size: cover;
-   background-position: center center;
-   content: ""; */
    max-width: 50%;
    object-fit: cover;
    flex: 1;
 }
 .work__cotent-container {
-   /* transform: translateX(55vw); */
    margin-left: 120px;
    padding: 90px 0px;
    box-sizing: border-box;

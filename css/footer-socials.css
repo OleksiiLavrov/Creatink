@@ -1,0 +1,14 @@
+.footer__grid-socials {
+   display: flex;
+   align-items: center;
+}
+.footer__grid-socials li {
+   margin-right: 8px;
+}
+.footer__grid-socials li:last-child {
+   margin-right: 0;
+}
+.footer__grid-socials__item {
+   width: 34px;
+   height: 34px;
+}
